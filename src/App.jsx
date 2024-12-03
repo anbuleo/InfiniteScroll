@@ -6,7 +6,7 @@ function App() {
   let [data,setData] = useState(Array.from({length:20}))
   let [more , setMore] = useState(true)
   const handleAddData = ()=>{
-    if(data.length >=1000){
+    if(data.length >=10000){
       setMore(false)
     } else{
       setTimeout(() => {
